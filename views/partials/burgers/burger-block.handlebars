@@ -1,0 +1,9 @@
+<li class="list-group-item d-flex justify-content-between align-items-center">
+    {{burger_name}}
+    {{#if devoured}}
+    <button class="badge badge-primary badge-pill" data-id="{{id}}" data-newdevour="{{devoured}}">Devour It!</button>
+    {{else}}
+    <span class="badge badge-primary badge-pill" data-id="{{id}}" data-newdevour="{{devoured}}">Devoured!</span>
+    {{/if}} 
+</li>
+  
