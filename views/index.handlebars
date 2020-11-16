@@ -18,9 +18,9 @@
     <div class="col s6">
         <ul class="list-group">
             {{#each burgers}}
-                {{#unless devoured}}
+                {{#if devoured}}
                     {{> burgers/burger-block devoured=false}}
-                {{/unless}}
+                {{/if}}
             {{/each}}
         </ul>
     </div>

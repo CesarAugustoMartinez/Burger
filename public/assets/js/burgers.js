@@ -1,12 +1,13 @@
 $(function() {
-    $(".change-devoured").on("click", function(event) {
+    $(".devourButton").on("click", function(event) {
+        event.preventDefault();
       var id = $(this).data("id");
       var newDevour = $(this).data("newdevour");
   
       var newDevourState = {
         devoured: newDevour
       };
-  
+      console.log(newDevourState);
       // Send the PUT request.
       $.ajax("/api/burgers/" + id, {
         type: "PUT",
