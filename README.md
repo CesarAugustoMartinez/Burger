@@ -2,7 +2,7 @@
 
 ![picture](public/assets/images/burgerApp.png)
 
-[Live](https://github.com/CesarAugustoMartinez/Burger)
+[App Live on Heroku](https://guarded-retreat-27256.herokuapp.com/)
 
 ---
 
